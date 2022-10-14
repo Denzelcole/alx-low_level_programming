@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 /**
-* main - Prints numbers from 0-9
+* main - Prints z-a in lowercase
 *
-* Description: Using putchar() function
-* This prints numbers from 0-9,
-* 48-57 in ASCII is 0-9 in char.
+* Description: Using the putchar
+* Print the alphabet in reverse order z-a
 *
-* Return: 0 (sccuess)
+* Return: 0 (success)
 */
 int main(void)
 {
-	char number;
+	char alphabet;
 
-	for (alphabet = 'z'; number <= 'a'; number--)
+	for (alphabet = 'z'; alphabet >= 'a'; alphabet--)
 		putchar(alphabet);
 	putchar('\n');
 	return (0);
