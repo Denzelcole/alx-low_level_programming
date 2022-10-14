@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 /**
-* main - Check and pritns if lastdigit is positive or negative.
+* main - Check and prints if lastdigit is positive or negative.
 *
-* Description: Using rand, srand and RAND_MAX as functions.
-* Store the string to check
-* Our string here is 5
+* Description: Using the srand(), rand() function.
+* This check if the lastdigit is greater than, equal or
+* not equal a given number.
 *
-* Return 0 (sucess)
+* Return: 0 (Success)
 */
 int main(void)
 {
