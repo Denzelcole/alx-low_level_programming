@@ -11,10 +11,10 @@
 */
 int main(void)
 {
-	int number;
+	char number;
 
-	for (number = 48; number <= 57; number++)
-		putchar((char)number);
+	for (alphabet = 'z'; number <= 'a'; number--)
+		putchar(alphabet);
 	putchar('\n');
 	return (0);
 }
