@@ -1,21 +1,19 @@
 #include <stdio.h>
 
 /**
-* main - Prints numbers.
+* main - Print numbers
 *
-* Description - Using printf() function.
-* Counting from 0 - 10.
+* Description: Using printf() function.
+* This prints numbers from 0-9.
 *
 * Return: 0 (success)
 */
 int main(void)
 {
-	int a = 0;
+	int number;
 
-	while (a < 10)
-{
-	printf("%d\n", a);
-	a++;
-}
+	for (number = 0; number <= 9; number++)
+		printf("%d", number);
+	printf("\n");
 	return (0);
 }
