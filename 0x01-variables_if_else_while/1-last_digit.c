@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include <time>
-#include <studio.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
 * main - Check and pritns if lastdigit is positive or negative.
