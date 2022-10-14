@@ -1,25 +1,28 @@
 #include <stdio.h>
 
 /**
-* main - Prints 0-9 with space and comma
+* main - Prints two digits combinations
 *
 * Description: Using putchar() function.
-* Prints 0-9 with space and comma.
-* Eg -> 0, 1, 2, 3, .., 9
+* print all possible combinations of two digits
 *
 * Return: 0 (success)
 */
 int main(void)
 {
-	int number;
+	int number1, number2;
 
-	for (number = 48; number <= 57; number++)
+	for (number1 = 48; number1 <= 56; number1++)
 	{
-		putchar((char)number);
-		if (number != 57)
+		for (number2 = number1 + 1; number2 <= 57; number2++)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar((char)number1);
+			putchar((char)number2);
+			if (number1 != 56)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
