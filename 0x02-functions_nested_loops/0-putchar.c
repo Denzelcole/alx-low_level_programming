@@ -4,6 +4,7 @@
  * main = Prints _putchar
  *
  * Description: Using _putchar function
+ *
  * from "main.h" we print the function _putchar to stdout
  *
  * Return: 0 (success)
@@ -20,6 +21,5 @@ int main(void)
 	 _putchar('h');
 	 _putchar('a');
 	 _putchar('r');
-
-    return (0);
+	return (0);
 }
