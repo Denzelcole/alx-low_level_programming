@@ -3,7 +3,7 @@
 
 /**
 * _atoi - converts a string to an integer
-* @s: string to ocnvert
+* @s: string to convert
 *
 * Description: This function convert a given string
 * to an integer
@@ -20,7 +20,7 @@ int _atoi(char *s)
 	i = n = 0;
 	while ((s[i] < '0' || s[i] > '9') && s[i] != 0)
 	{
-		if (s[i] == '_')
+		if (s[i] == '-')
 			m = m * -1;
 		i++;
 	}
