@@ -3,15 +3,13 @@
 
 /**
  * insert_nodeint_at_index - insert a node at a specified index
- *
  * @head: pointer to the head node
  * @idx: the index to insert at
- * @num: data of the new node to be inserted
- *
- * Description: index starts at 0
+ * @num: element/property of num the new node to be inserted
  * Return: address of the new node
- *	   NULL if it fails, or it's impossible to add new node at index
+ * NULL if it fails, or it's impossible to add new node at index
  */
+
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int num)
 {
 	unsigned int count;
