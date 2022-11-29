@@ -10,7 +10,7 @@
  * NULL if it fails, or it's impossible to add new node at index
  */
 
-listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int num)
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	unsigned int count;
 	listint_t *new_node;
@@ -24,7 +24,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int num)
 	do {
 		if (count == idx)
 		{
-			new_node->n = num;
+			new_node->n = n;
 			if (previous)
 				previous->next = new_node;
 			else
